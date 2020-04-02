@@ -3,10 +3,8 @@
  *          dynamic content with the GET method. Neither 
  *          robust, secure, nor modular. Use for instructional
  *          purposes only.
- *          
- * 		Semo Capstone Experience Firewall
- * 		Group Members: Eshter Ahmed, Zihang Zhang, Jihao Deng, Katherine Summerfield	
- *          
+ *         
+ * Semo Capstone Firewall
  */
 
 #include <stdio.h>
@@ -103,7 +101,7 @@ int wc2=0;
 int wc3=0;
 
 /***********************************************************************************/
-//  this function from hach.c
+//  this function copy from hach.c
 //  didn't change content 
 
 
@@ -122,7 +120,7 @@ int cal_ipaddr_hash(char* ipaddr)
 
 
 /***********************************************************************************/
-//  this function from hach.c
+//  this function copy from hach.c
 //  didn't change content 
 
 // insert nodes to black&white list to use Hash Table
@@ -152,7 +150,8 @@ void black_add(struct node x)
 }
 
 /***********************************************************************************/
-//  
+//  this function copy from hach.c
+//  didn't change content 
 
 void white_add(struct node x)
 {
@@ -180,6 +179,9 @@ void white_add(struct node x)
 }
 
 
+/***********************************************************************************/
+//  this function copy from hach.c
+//  didn't change content 
 
 // Sorting of Hash_Table
 void hashsort_blacklist()
@@ -225,7 +227,8 @@ void hashsort_blacklist()
 	}
 }
 /***********************************************************************************/
-
+//  this function copy from hach.c
+//  didn't change content 
 void hashsort_whitelist()
 {
 	for(int i1=0; i1<wc1-1; i1++)
@@ -270,6 +273,9 @@ void hashsort_whitelist()
 }
 
 /***********************************************************************************/
+//  this function copy from hach.c
+//  didn't change content 
+
 // Decide whether port number is in the black or white list
 // Using Hash Search Algorithm
 int isInB(char* addr)
@@ -309,7 +315,8 @@ int isInB(char* addr)
 }
 
 /***********************************************************************************/
-
+//  this function copy from hach.c
+//  didn't change content 
 
 int isInW(char* addr)
 {
@@ -415,7 +422,7 @@ int main(int argc, char **argv) {
   printf("\n");
 
 /***********************************************************************************/
-// this section from hash.c. this is use for create blackList and whitelist from csv
+// this section copy from hash.c. this is use for create blockList and whitelist from csv
 
 	struct node temp;
 	char IP_addr[60]; // account number
@@ -551,7 +558,7 @@ void *thread_1(void *arg)
 
 
 	/***********************************************************************************/
-	// this section from hash.c
+	// this section copy from hash.c
 	// for check block list and whihte list
     if (isInB(hostaddrp)==1) {
 			if(isInW(hostaddrp)==0)
@@ -565,7 +572,7 @@ void *thread_1(void *arg)
 	/***********************************************************************************/
 
 	/***********************************************************************************/
-	// this section   from tinyHttpServerKS.c
+	// this section copy from tinyHttpServerKS.c
 	// processing request
 	// I didn't change this request prosessing methology 
 	
