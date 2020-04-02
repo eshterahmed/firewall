@@ -1,0 +1,7 @@
+8f50972449662d64c36a838e784c94ea  index.html
+0973ee8655d78f9b8d01ffa601100f23  blackList.csv
+abd039d3b73fcd395e32222b97359235  mainServer.c
+78982ff13b164ca73b764632570cb467  newFiles.sh
+9ca0cfdb17b02843e150a3db11c646a1  server
+29041af37bcbee41b895784005abacfd  whiteList.csv
+c9b0c08c9e7a1d253396ff5c395afb35  test
