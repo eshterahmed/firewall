@@ -103,7 +103,7 @@ int wc2=0;
 int wc3=0;
 
 /***********************************************************************************/
-//  this function copy from hach.c
+//  this function  from hach.c
 //  didn't change content 
 
 
@@ -152,7 +152,7 @@ void black_add(struct node x)
 }
 
 /***********************************************************************************/
-//  this function copy from hach.c
+//  this function  from hach.c
 //  didn't change content 
 
 void white_add(struct node x)
@@ -229,7 +229,7 @@ void hashsort_blacklist()
 	}
 }
 /***********************************************************************************/
-//  this function copy from hach.c
+//  this function  from hach.c
 //  didn't change content 
 void hashsort_whitelist()
 {
@@ -275,7 +275,7 @@ void hashsort_whitelist()
 }
 
 /***********************************************************************************/
-//  this function copy from hach.c
+//  this function from hach.c
 //  didn't change content 
 
 // Decide whether port number is in the black or white list
@@ -317,7 +317,7 @@ int isInB(char* addr)
 }
 
 /***********************************************************************************/
-//  this function copy from hach.c
+//  this function   from hach.c
 //  didn't change content 
 
 int isInW(char* addr)
@@ -424,7 +424,7 @@ int main(int argc, char **argv) {
   printf("\n");
 
 /***********************************************************************************/
-// this section copy from hash.c. this is use for create blockList and whitelist from csv
+// this section   from hash.c. this is use for create blockList and whitelist from csv
 
 	struct node temp;
 	char IP_addr[60]; // account number
@@ -560,7 +560,7 @@ void *thread_1(void *arg)
 
 
 	/***********************************************************************************/
-	// this section copy from hash.c
+	// this section from hash.c
 	// for check block list and whihte list
     if (isInB(hostaddrp)==1) {
 			if(isInW(hostaddrp)==0)
@@ -574,7 +574,7 @@ void *thread_1(void *arg)
 	/***********************************************************************************/
 
 	/***********************************************************************************/
-	// this section copy from tinyHttpServerKS.c
+	// this section   from tinyHttpServerKS.c
 	// processing request
 	// I didn't change this request prosessing methology 
 	
