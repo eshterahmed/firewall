@@ -103,7 +103,7 @@ int wc2=0;
 int wc3=0;
 
 /***********************************************************************************/
-//  this function  from hach.c
+//  this function from hach.c
 //  didn't change content 
 
 
@@ -122,7 +122,7 @@ int cal_ipaddr_hash(char* ipaddr)
 
 
 /***********************************************************************************/
-//  this function copy from hach.c
+//  this function from hach.c
 //  didn't change content 
 
 // insert nodes to black&white list to use Hash Table
@@ -152,8 +152,7 @@ void black_add(struct node x)
 }
 
 /***********************************************************************************/
-//  this function  from hach.c
-//  didn't change content 
+//  
 
 void white_add(struct node x)
 {
@@ -181,9 +180,6 @@ void white_add(struct node x)
 }
 
 
-/***********************************************************************************/
-//  this function copy from hach.c
-//  didn't change content 
 
 // Sorting of Hash_Table
 void hashsort_blacklist()
@@ -229,8 +225,7 @@ void hashsort_blacklist()
 	}
 }
 /***********************************************************************************/
-//  this function  from hach.c
-//  didn't change content 
+
 void hashsort_whitelist()
 {
 	for(int i1=0; i1<wc1-1; i1++)
@@ -275,9 +270,6 @@ void hashsort_whitelist()
 }
 
 /***********************************************************************************/
-//  this function from hach.c
-//  didn't change content 
-
 // Decide whether port number is in the black or white list
 // Using Hash Search Algorithm
 int isInB(char* addr)
@@ -317,8 +309,7 @@ int isInB(char* addr)
 }
 
 /***********************************************************************************/
-//  this function   from hach.c
-//  didn't change content 
+
 
 int isInW(char* addr)
 {
@@ -424,7 +415,7 @@ int main(int argc, char **argv) {
   printf("\n");
 
 /***********************************************************************************/
-// this section   from hash.c. this is use for create blockList and whitelist from csv
+// this section from hash.c. this is use for create blackList and whitelist from csv
 
 	struct node temp;
 	char IP_addr[60]; // account number
