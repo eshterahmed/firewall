@@ -3,8 +3,10 @@
  *          dynamic content with the GET method. Neither 
  *          robust, secure, nor modular. Use for instructional
  *          purposes only.
- *         
- * Semo Capstone Firewall
+ *          Dave O'Hallaron, Carnegie Mellon
+ *          http://www.cs.cmu.edu/afs/cs/academic/class/15213-s00/www/class28/tiny.c
+ *			gcc -o  tiny tiny.c 
+ *          usage: tiny <port>
  */
 
 #include <stdio.h>
